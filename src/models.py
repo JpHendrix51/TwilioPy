@@ -26,3 +26,6 @@ class Queue:
         return len(self._queue)
 
 
+#this is the way that the queue works enqueue adds one to the back of the queue while dequeue adds the the back of it
+#you can change the method from FIFO or FILO as well
+#you have to return the empty array of self._queue

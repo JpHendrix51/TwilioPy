@@ -71,7 +71,7 @@ message = client.messages \
                 .create(
                      body="Join Earth's mightiest heroes. Like Kevin Bacon.",
                      from_='+17544659541',
-                     to='+17862021287'
+                     to=''
                  )
 
 print(message.sid)
