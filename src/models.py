@@ -15,7 +15,8 @@ class Queue:
 
     def dequeue(self):
         if self._mode == "FIFO":
-             return self._queue.pop(0)
+            self._queue.pop(0)
+            return self._queue
         else:
             return self._queue.pop(-1)
 
